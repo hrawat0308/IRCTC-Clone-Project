@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr 8fr 4fr 5fr 3fr 1fr;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.head-logo-right{
+    float : right;
+}
+
+.head-logo-left{
+    float: left;
+    margin-left : 20%;
+}
+
+.header-content{
+    margin-top: 2%;
+    text-align: center;
+    font-family: Body,Quicksand,sans-serif;
+    font-size: 0.7rem;
+}
+
+.header-content a{
+    padding : 10px;
+    text-decoration: none;
+    color: black;
+}
+
