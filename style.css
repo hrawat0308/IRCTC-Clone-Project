@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-rows: 1fr 8fr 4fr 5fr 3fr 1fr;
+    grid-template-rows: 1fr 8fr 8fr ;
 }
 
 .header{
@@ -139,3 +139,17 @@
     grid-template-columns: 100%;
 }
 
+.feature-list{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: Body,Quicksand,sans-serif;
+    font-weight: bold;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feature-list > li{
+    margin-bottom: 50px;
+}
