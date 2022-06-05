@@ -185,3 +185,29 @@
     font-family: Body,Quicksand,sans-serif;
     text-align: justify;
 }
+
+.social-networks{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 80%;
+    font-family: Body,Quicksand,sans-serif;
+    
+}
+
+.social-networks > span{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.social-links > a{
+    padding-left : 8px;
+    padding-right: 8px;
+    z-index: 1;
+    text-decoration: none;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    vertical-align: middle;
+    color: #fff;
+    border-radius: 50%;
+}
